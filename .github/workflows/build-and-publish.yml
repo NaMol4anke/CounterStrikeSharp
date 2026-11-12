@@ -1,5 +1,6 @@
 name: NEVA Linux release
 on:
+  workflow_dispatch:
   push:
     tags: ['v*-neva.*']
 permissions:

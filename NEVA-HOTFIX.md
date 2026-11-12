@@ -13,11 +13,11 @@ The CSS patch preserves message names seen by managed plugins and adapts SDK cal
 
 ## Install through NEVA Egg
 
-Use release `v1.0.379-neva.1` from `NaMol4anke/CounterStrikeSharp` and the
-`counterstrikesharp-with-runtime-linux-1.0.379-neva.1.zip` asset.
+Use release `v1.0.379-neva.2` from `NaMol4anke/CounterStrikeSharp` and the
+`counterstrikesharp-with-runtime-linux-1.0.379-neva.2.zip` asset.
 Retain the upstream archive layout: extract into `game/csgo`.
 
-Set `CSS_RELEASE_TAG=v1.0.379-neva.1` in the SMS provisioning environment;
+Set `CSS_RELEASE_TAG=v1.0.379-neva.2` in the SMS provisioning environment;
 managed SMS startup sets `RELEASE_FREEZE=1`. The Egg CSS updater repository must
 be `NaMol4anke/CounterStrikeSharp`. A tag pin alone does not change the repository.
 Keep `INSTALL_CSS=1` and preserve the currently installed NAP and its configuration.
